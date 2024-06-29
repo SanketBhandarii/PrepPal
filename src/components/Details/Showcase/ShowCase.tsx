@@ -1,14 +1,17 @@
 import {Image, StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import React, {useRef, useState} from 'react';
+import {TouchableOpacity} from 'react-native-gesture-handler';
+import { useNavigation } from '@react-navigation/native';
 
-const ShowCase = ({title, duration, url1}) => {
+const ShowCase = ({title, duration, url1, url2}) => {
+ 
+  const navigation = useNavigation();
   return (
     <View style={styles.feeContainer}>
+
       <Image
         source={{uri: url1}}
-        width={50}
-        height={50}
-        style={{borderRadius: 50}}
+        style={{width: 50, height: 50, borderRadius: 25}}
       />
       <View>
         <Text
@@ -22,25 +25,22 @@ const ShowCase = ({title, duration, url1}) => {
         </Text>
         <Text style={{color: '#fff'}}>{duration}</Text>
       </View>
-      <Image
-        source={{
-          uri: 'https://i.pinimg.com/736x/35/fb/05/35fb0533258a6789eba3b6d7d7f95eae.jpg',
-        }}
-        style={{borderRadius: 50}}
-        width={50}
-        height={50}
-      />
+      <TouchableOpacity onPress={() => navigation.navigate("AllVideos", {url2})}>
+        <Image
+          source={{
+            uri: 'https://i.pinimg.com/736x/35/fb/05/35fb0533258a6789eba3b6d7d7f95eae.jpg',
+          }}
+          style={{width: 50, height: 50, borderRadius: 25}}
+        />
+      </TouchableOpacity>
     </View>
   );
 };
-
-export default ShowCase;
 
 const styles = StyleSheet.create({
   feeContainer: {
     width: 330,
     height: 90,
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
@@ -50,3 +50,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
 });
+
+export default ShowCase;

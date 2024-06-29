@@ -19,6 +19,7 @@ const Outline = ({title}) => {
             url1={
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIEfmjGzOXrMW1prnoe2MAPnxdeKWVRio1g&s'
             }
+            url2={require('./Video/Math.mp4')}
           />
         </View>
       ) : title == 'Chemistry' ? (
@@ -33,6 +34,7 @@ const Outline = ({title}) => {
             title={'Carbon Compounds'}
             duration={'20:60 min'}
             url1={'https://cdn-icons-png.flaticon.com/512/7812/7812701.png'}
+            url2={require('./Video/Carbon.mp4')}
           />
         </View>
       ) : title == 'Biology' ? (
@@ -44,10 +46,13 @@ const Outline = ({title}) => {
             style={{width: 240, height: 240}}
           />
           <ShowCase
-            title={'Meiosis & Mitosis'}
+            title={'Engery Production'}
             duration={'20:60 min'}
             url1={
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHMuXnA4oGZJF96hrNaZ4hRmok9UQ1mTaZw&s'
+            }
+            url2={
+              require("./Video/Engery.mp4")
             }
           />
         </View>
@@ -64,6 +69,9 @@ const Outline = ({title}) => {
             duration={'20:60 min'}
             url1={
               'https://img.favpng.com/23/17/18/lab-icon-flask-icon-physics-icon-png-favpng-hqGeuRpVqwrYit2CkX0CKSqFe.jpg'
+            }
+            url2={
+              require('./Video/Regelation.mp4')
             }
           />
         </View>
