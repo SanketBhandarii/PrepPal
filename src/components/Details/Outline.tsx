@@ -14,12 +14,12 @@ const Outline = ({title}) => {
             style={{width: 340, height: 340}}
           />
           <ShowCase
-            title={'Polynomials Types'}
+            title={'Pythagoras Theorem'}
             duration={'20:60 min'}
             url1={
               'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIEfmjGzOXrMW1prnoe2MAPnxdeKWVRio1g&s'
             }
-            url2={require('./Video/Math.mp4')}
+            url2={require('./Video/Pythagoras.mp4')}
           />
         </View>
       ) : title == 'Chemistry' ? (
