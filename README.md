@@ -1,8 +1,7 @@
 <div>
-<img src="assets/ss1.jpg" alt="Home Screen" width="200"/>
-<img src="assets/ss2.jpg" alt="Home Screen" width="200"/>
-<img src="assets/ss3.jpg" alt="Home Screen" width="200"/>
-<img src="assets/ss4.jpg" alt="Home Screen" width="200"/>
+<img src="assets/ss1.jpg" alt="Home Screen" width="250"/>
+<img src="assets/ss3.jpg" alt="Home Screen" width="250"/>
+<img src="assets/ss4.jpg" alt="Home Screen" width="250"/>
 </div>
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
