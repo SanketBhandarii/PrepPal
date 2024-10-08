@@ -46,7 +46,7 @@ const App = () => {
           }}
           style={styles.backIcon}
         />
-        <Text style={styles.backText}>Back to Home</Text>
+        <Text style={styles.backText}>Back t Home</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.videoContainer}
