@@ -8,7 +8,7 @@ const Fee = ({subtitle}) => {
         <View>
             <Text style={{color:"#fff",fontSize: 20,
           fontWeight: '600', paddingBottom:5}}>{subtitle}</Text>
-            <Text style={{color:"#fff"}}>⭐ 4.6 * 450 reviews ></Text>
+            <Text style={{color:"#fff"}}>⭐ 4.6 * 450 reviews</Text>
         </View>
         <View style={{backgroundColor:"#fff2d5", paddingHorizontal:20,paddingVertical:10, borderRadius:20}}>
             <Text style={{color:"#475264",fontSize: 15,
