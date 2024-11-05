@@ -8,9 +8,9 @@ const Details = () => {
   const sub = route.params.sub;
 
   const subjectDetails = {
-    Mathematics: <SubjectDetails title="Mathematics" />,
-    Chemistry: <SubjectDetails title="Chemistry" />,
-    Biology: <SubjectDetails title="Biology" />,
+    ReactJS: <SubjectDetails title="ReactJS" />,
+    ExpressJS: <SubjectDetails title="ExpressJS" />,
+    SQL: <SubjectDetails title="SQL" />,
     Physics: <SubjectDetails title="Physics" />,
   };
 

@@ -14,7 +14,7 @@ const Fee = ({subtitle}) => {
             <Text style={{color:"#475264",fontSize: 15,
           fontWeight: '600'}}>Fee</Text>
             <Text  style={{color:"#475264",fontSize: 15,
-          fontWeight: '600'}}>$20</Text>
+          fontWeight: '600'}}>Rs.0</Text>
         </View>
     </View>
   )

@@ -11,7 +11,7 @@ const SubjectDetails = ({title}) => {
     <SafeAreaView
      >
       <ScrollView showsVerticalScrollIndicator={false}>
-        <DetailTitle />
+        <DetailTitle title={title}/>
         <Fee subtitle={title}/>
         <Outline title={title}/>
       </ScrollView>
