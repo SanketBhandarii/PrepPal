@@ -1,6 +1,7 @@
 <div>
 <img src="assets/ss1.jpg" alt="Home Screen" width="230"/>
 <img src="assets/ss2.jpg" alt="Home Screen" width="234"/>
+<img src="assets/ss3.jpg" alt="Home Screen" width="234"/>
 
 </div>
 
