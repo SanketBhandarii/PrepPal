@@ -1,17 +1,18 @@
 import {Image, StyleSheet, Text, View, Linking} from 'react-native';
 import React, {useRef, useState} from 'react';
 import {TouchableOpacity} from 'react-native-gesture-handler';
-import { useNavigation } from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 
 const ShowCase = ({title, duration, url1, url2}) => {
+  const navigation = useNavigation();
+
+  // Handle link opening
   const handlePress = () => {
     Linking.openURL(url2);
   };
 
-  const navigation = useNavigation();
   return (
     <View style={styles.feeContainer}>
-
       <Image
         source={{uri: url1}}
         style={{width: 50, height: 50, borderRadius: 25}}

@@ -5,6 +5,7 @@ import Home from './src/components/screens/Home';
 import Details from './src/components/screens/Details';
 import Splash from './src/components/Splash';
 import {ActivityIndicator} from 'react-native';
+import AllVideos from './src/components/Details/Video/AllVideos';
 
 const Stack = createStackNavigator();
 
@@ -37,6 +38,15 @@ const App = () => {
         <Stack.Screen
           name="Details"
           component={Details}
+          options={{
+            animationEnabled: true,
+            gestureEnabled: true,
+            gestureDirection: 'vertical',
+          }}
+        />
+        <Stack.Screen
+          name="AllVideos"
+          component={AllVideos}
           options={{
             animationEnabled: true,
             gestureEnabled: true,

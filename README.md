@@ -1,66 +1,64 @@
 <div>
-<img src="assets/ss1.jpg" alt="Home Screen" width="230"/>
-<img src="assets/ss2.jpg" alt="Home Screen" width="234"/>
-
+  <img src="assets/ss1.jpg" alt="Home Screen" width="230"/>
+  <img src="assets/ss2.jpg" alt="Home Screen" width="234"/>
+  <img src="assets/ss3.jpg" alt="Home Screen" width="234"/>
 </div>
 
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<p>This is a new <strong><a href="https://reactnative.dev" target="_blank">React Native</a></strong> project, bootstrapped using <code>@react-native-community/cli</code>.</p>
 
-# Getting Started
+<h1>Getting Started</h1>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<p><strong>Note:</strong> Make sure you have completed the <a href="https://reactnative.dev/docs/environment-setup" target="_blank">React Native - Environment Setup</a> instructions till "Creating a new application" step, before proceeding.</p>
 
-## Step 1: Start the Metro Server
+<h2>Step 1: Start the Metro Server</h2>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+<p>First, you will need to start <strong>Metro</strong>, the JavaScript <em>bundler</em> that ships <em>with</em> React Native.</p>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+<p>To start Metro, run the following command from the <em>root</em> of your React Native project:</p>
 
-```bash
-# using npm
+<pre><code># using npm
 npm start
 
 # OR using Yarn
 yarn start
-```
+</code></pre>
 
-## Step 2: Start your Application
+<h2>Step 2: Start your Application</h2>
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<p>Let Metro Bundler run in its <em>own</em> terminal. Open a <em>new</em> terminal from the <em>root</em> of your React Native project. Run the following command to start your <strong>Android</strong> or <strong>iOS</strong> app:</p>
 
-### For Android
+<h3>For Android</h3>
 
-```bash
-# using npm
+<pre><code># using npm
 npm run android
 
 # OR using Yarn
 yarn android
-```
+</code></pre>
 
-### For iOS
+<h3>For iOS</h3>
 
-```bash
-# using npm
+<pre><code># using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
-```
+</code></pre>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+<p>If everything is set up <em>correctly</em>, you should see your new app running in your <strong>Android Emulator</strong> or <strong>iOS Simulator</strong> shortly, provided you have set up your emulator/simulator correctly.</p>
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<p>This is one way to run your app — you can also run it directly from within Android Studio and Xcode, respectively.</p>
 
-## Step 3: Modifying your App
+<h2>Step 3: Modifying your App</h2>
 
-Now that you have successfully run the app, let's modify it.
+<p>Now that you have successfully run the app, let's modify it.</p>
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+<ol>
+  <li>Open <code>App.tsx</code> in your text editor of choice and edit some lines.</li>
+  <li>For <strong>Android</strong>: Press the <kbd>R</kbd> key twice or select <strong>"Reload"</strong> from the <strong>Developer Menu</strong> (<kbd>Ctrl</kbd> + <kbd>M</kbd> on Windows/Linux, or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> on macOS) to see your changes!</li>
+  <li>For <strong>iOS</strong>: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!</li>
+</ol>
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+<h2>Congratulations! 🎉</h2>
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
+<p>You've successfully run and modified your React Native App. 🎉</p>

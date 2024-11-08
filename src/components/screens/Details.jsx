@@ -1,6 +1,6 @@
-import {StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import {useRoute} from '@react-navigation/native';
+import { useRoute } from '@react-navigation/native';
 import SubjectDetails from '../Details/SubjectDetails';
 
 const Details = () => {
@@ -11,6 +11,9 @@ const Details = () => {
     ReactJS: <SubjectDetails title="ReactJS" />,
     ExpressJS: <SubjectDetails title="ExpressJS" />,
     SQL: <SubjectDetails title="SQL" />,
+    Mathematics: <SubjectDetails title="Mathematics" />,
+    Chemistry: <SubjectDetails title="Chemistry" />,
+    Biology: <SubjectDetails title="Biology" />,
     Physics: <SubjectDetails title="Physics" />,
   };
 

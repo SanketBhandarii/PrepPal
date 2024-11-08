@@ -8,12 +8,11 @@ import Outline from './Outline';
 
 const SubjectDetails = ({title}) => {
   return (
-    <SafeAreaView
-     >
+    <SafeAreaView>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <DetailTitle title={title}/>
-        <Fee subtitle={title}/>
-        <Outline title={title}/>
+        <DetailTitle title={title} />
+        <Fee subtitle={title} />
+        <Outline title={title} />
       </ScrollView>
     </SafeAreaView>
   );

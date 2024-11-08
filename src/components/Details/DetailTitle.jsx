@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
@@ -31,7 +31,6 @@ const DetailTitle = ({ title }) => {
     getHeartValue();
   }, []);
 
-
   useEffect(() => {
     storeHeartValue(heartState);
   }, [heartState]);
@@ -39,7 +38,7 @@ const DetailTitle = ({ title }) => {
   const toggleHeart = () => {
     setHeartState((prevState) => ({
       heart: !prevState.heart,
-      title: title
+      title: title,
     }));
   };
 
@@ -52,24 +51,15 @@ const DetailTitle = ({ title }) => {
           backgroundColor: '#1ab3f0',
           padding: 5,
           borderRadius: 23,
-        }}
-      >
+        }}>
         <AntDesign name="arrowleft" size={30} color="#fff" />
       </TouchableOpacity>
-      <Text
-        style={{
-          color: '#fff',
-          fontSize: 23,
-          fontWeight: 'bold',
-          paddingLeft: 13,
-        }}
-      >
-        Below-Details {/* Display the title */}
+
+      <Text style={{ color: '#fff', fontSize: 23, fontWeight: 'bold', paddingLeft: 13 }}>
+        {title || 'Details'}
       </Text>
-      <TouchableOpacity
-        style={{ marginRight: 14, padding: 5 }}
-        onPress={toggleHeart}
-      >
+
+      <TouchableOpacity style={{ marginRight: 14, padding: 5 }} onPress={toggleHeart}>
         <AntDesign
           name={heartState.heart ? 'heart' : 'hearto'}
           size={30}
@@ -84,7 +74,6 @@ export default DetailTitle;
 
 const styles = StyleSheet.create({
   detailTitleContainer: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
